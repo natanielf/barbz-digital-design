@@ -15,6 +15,7 @@ sattwikCode();
 function drawMoon(){
   penUp();
   moveTo(320, 450);
+  penColor('#d3d3d3');
   penDown();
   dot(100);
   penUp();
