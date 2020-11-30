@@ -134,7 +134,7 @@ function drawMeteor(size) {
   turnTo(90);
   dot(size);
   penWidth(size);
-
+  penUp();
 
 }
 
