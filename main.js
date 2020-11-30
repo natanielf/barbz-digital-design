@@ -4,6 +4,10 @@
 // Set Background Color (parameter sets the color):
 setBKGDColor('#001565');
 
+// Contributed by Sattwik, it is part of the background
+// so it needs to be called early in the program:
+sattwikCode();
+
 //Draw Aliens (parameter sets the number of aliens that will be drawn):
 drawAliens(5);
 
@@ -109,7 +113,9 @@ function drawUFOs(numUFOs) {
 
 // END Section: Anandi - Contributed Element: UFOs
 
+
 // START Section: Sattwik - Contributed Element: Stars
+
 
 function sattwikCode() {
   //making a function for coding 1 star
@@ -141,6 +147,7 @@ function sattwikCode() {
 }
 // I put everything into a function so we don't have to worry ab repeated variables :))
 // Also call the function right after the backgroundColor bc this is part of the background. My function can be declared later tho
-sattwikCode();
+// sattwikCode();
+
 
 // END Section: Sattwik - Contributed Element: Stars
