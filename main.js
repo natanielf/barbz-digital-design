@@ -8,6 +8,36 @@ setBKGDColor('#001565');
 // so it needs to be called early in the program:
 sattwikCode();
 
+
+// BEGIN Section: Isable - Contributed Element: Moon
+
+
+function drawMoon(){
+  penUp();
+  moveTo(320, 450);
+  penDown();
+  dot(100);
+  penUp();
+}
+function drawCrater(size){
+  penUp();
+  moveTo(randomNumber(250, 320), randomNumber(380, 450));
+  penColor(rgb(100, 100, 100));
+  penDown();
+  dot(size);
+}
+function drawCraters(number) {
+  for (var i = 0; i < number; i++){
+    drawCrater(randomNumber(1,3));
+  }
+}
+drawMoon();
+drawCraters(randomNumber(1,100));
+
+
+// END Section: Isable - Contributed Element: Moon
+
+
 //Draw Aliens (parameter sets the number of aliens that will be drawn):
 drawAliens(5);
 
