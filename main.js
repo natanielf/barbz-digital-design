@@ -192,6 +192,7 @@ function sattwikCode() {
 //Draw Astronaut-parameter sets the eye color
 //Also, only gonna draw on because well, tbh I don't know how to do more, I've forgotten, but we'll just say the astunaut is doing the space walk alone, and the rest of the crew is inside
 drawSpaceDude(randomNumber(0, 255), randomNumber(0, 255), randomNumber(0, 255));
+drawSpaceDude(randomNumber(0, 255), randomNumber(0, 255), randomNumber(0, 255));
 
 // Define Function
 function drawSpaceDude(r, g, b){
