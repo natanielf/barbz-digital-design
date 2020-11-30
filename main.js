@@ -9,7 +9,7 @@ setBKGDColor('#001565');
 sattwikCode();
 
 
-// BEGIN Section: Isable - Contributed Element: Moon
+// BEGIN Section: Isabel - Contributed Element: Moon
 
 
 function drawMoon(){
@@ -36,7 +36,7 @@ drawMoon();
 drawCraters(randomNumber(1,100));
 
 
-// END Section: Isable - Contributed Element: Moon
+// END Section: Isabel - Contributed Element: Moon
 
 
 //Draw Aliens (parameter sets the number of aliens that will be drawn):
