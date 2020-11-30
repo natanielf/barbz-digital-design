@@ -14,7 +14,6 @@ drawAliens(5);
 // If you want to draw just one alien:
 // drawAlien(12, 20, 250, 60);
 
-
 // Define Functions:
 function setBKGDColor(color) {
   hide();
@@ -151,3 +150,63 @@ function sattwikCode() {
 
 
 // END Section: Sattwik - Contributed Element: Stars
+
+
+// START Section: Shannon, love a space dude aka an asronaut mmmm sooo good
+
+
+//Draw Astronaut-parameter sets the eye color
+//Also, only gonna draw on because well, tbh I don't know how to do more, I've forgotten, but we'll just say the astunaut is doing the space walk alone, and the rest of the crew is inside
+drawSpaceDude(randomNumber(0, 255), randomNumber(0, 255), randomNumber(0, 255));
+
+// Define Function
+function drawSpaceDude(r, g, b){
+moveTo(randomNumber(35, 270), randomNumber(91, 360));
+turnRight(randomNumber(100, 290));
+penRGB(220,220,220);
+penWidth(20);
+penDown();
+turnLeft(90);
+moveForward(70);
+turnRight(35);
+moveForward(35);
+penUp();
+moveBackward(35);
+turnLeft(70);
+penDown();
+moveForward(35);
+moveBackward(35);
+turnRight(35);
+moveBackward(55);
+turnRight(50);
+moveForward(35);
+penUp();
+moveBackward(35);
+turnLeft(100);
+penDown();
+moveForward(35);
+penUp();
+moveBackward(35);
+turnRight(50);
+moveBackward(35);
+penDown();
+dot(30);
+penRGB(128, 128, 128);
+dot(20);
+penUp();
+turnRight(90);
+moveForward(8);
+penRGB(r, g, b);
+penDown();
+dot(5);
+penUp();
+moveBackward(16);
+penDown();
+dot(5);
+penUp();
+}
+
+
+// END Section: Shannon-Space man astronaut
+
+
