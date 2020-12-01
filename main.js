@@ -171,7 +171,7 @@ function drawMeteor(size) {
 
 function drawMeteors(numMeteors) {
   for (var i = 0; i < numMeteors; i++) {
-    drawMeteor(randomNumber(8,15), randomNumber(0,30), randomNumber(200,255), randomNumber(0,60));
+    drawMeteor(randomNumber(8,15));
   }
 }
 
